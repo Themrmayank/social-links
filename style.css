@@ -1,0 +1,121 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+.card{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #141414;
+    width: 520px;
+    height: 700px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card h2{
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 2rem;
+    top: 1rem;
+}
+
+.card h3{
+    margin: 0;
+    padding-top: 1rem;
+    top: 2rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.card p{
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    /* background-color: aquamarine; */
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.links button{
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.links button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+/* Media Queries - Phones*/
+
+@media only screen and (width <= 600px){
+    body{
+    background-color: #141414;
+    }
+    
+    .card{
+        width: 90%;
+    }
+
+    .card img{
+        width: 30%;
+    }
+
+    .card p{
+        font-size: 1.2rem;
+    }
+
+    .links{
+        width: 100%;
+    }
+
+    .links button{
+        width: 25rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .links button:hover{
+        background-color: aqua;
+        color: black;
+    }
+
+}
+
+
+
+
+
